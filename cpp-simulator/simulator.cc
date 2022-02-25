@@ -513,7 +513,7 @@ plot_data_struct run_simulation()
 				n_mild_symptomatic_tested,                                        \
 				n_moderate_symptomatic_tested,                                    \
 				n_severe_symptomatic_tested,                                      \
-				n_icu, n_requested_tests, n_tested_positive)
+				n_icu, n_requested_tests, n_tested_positive, home_ward_infected)
 		for (count_type j = 0; j < NUM_PEOPLE; ++j)
 		{
 			auto infection_status = nodes[j].infection_status;

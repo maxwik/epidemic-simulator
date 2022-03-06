@@ -531,4 +531,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+*.o
+cpp-simulator/outputs/*test*
+staticInst/data/sweden**
+probuf/
+
 # End of https://www.gitignore.io/api/vim,linux,macos,latex,python,windows,sublimetext,jupyternotebooks,visualstudiocode
